@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-arch-test
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/multi-arch-test/multi-arch-test@sha256:a92d5c19bc1f64ab85e256679bfc6a6dd0a33769fa5c1cb56f3eff9e08328116
+        name: my-go
+        resources: {}
+status: {}
