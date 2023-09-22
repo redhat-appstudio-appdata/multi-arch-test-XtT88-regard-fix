@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-arch-test
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/multi-arch-test/multi-arch-test@sha256:a92d5c19bc1f64ab85e256679bfc6a6dd0a33769fa5c1cb56f3eff9e08328116
         name: my-go
         ports:
         - containerPort: 8081
