@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: multi-arch-test
   name: multi-arch-test
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
